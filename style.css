@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
+  background-color: black;
+}
+
+p {
+  line-height: 2;
+}
+
+.wrapper {
+  width: 1350px;
+  margin: auto;
+}
+
+.logo img {
+  width: 150px;
+  float: left;
+}
+
+#home-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://wallpapers.com/images/hd/genshin-impact-beautiful-scenery-2lx7afb1zivx6o1d-2lx7afb1zivx6o1d.jpg);
+  height: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#regions-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://staticg.sportskeeda.com/editor/2022/06/fff6c-16541699665263-1920.jpg);
+  height: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#char-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://whatifgaming.com/wp-content/uploads/2021/02/Genshin-Impact-4.jpg);
+  height: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#photo-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/20220315225720.png);
+  height: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#about-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url("https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/About-Header.png");
+  height: 100vh;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+
+.nav-bar {
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar li .active {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+}
+
+.nav-bar li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight:500;
+}
+
+.nav-bar li a:hover { 
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+#nav-line {
+  background-color: #fff;
+}
+
+.home-text {
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin: 20% 30%;
+  text-align: center;
+}
+
+.home-text h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.home-text a {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 15px;
+  display: inline-block;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.home-text p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+.home-text a:hover {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #333;
+}
+
+#mondtbutton:hover {
+  background-color: rgb(91, 203, 165);
+  color: #fff;
+}
+
+#liyuebutton:hover {
+  background-color: rgb(238, 193, 110);
+  color: #fff;
+}
+
+#inazumabutton:hover {
+  background-color: rgb(163, 32, 183);
+  color: #fff;
+}
+
+#sumerubutton:hover {
+  background-color: rgb(109, 230, 109);
+  color: #fff;
+}
+
+#yelanbutton:hover {
+  background-color: rgb(105, 92, 245);
+  color: #fff; 
+}
+
+#xianglingbutton:hover {
+  background-color: rgb(238, 94, 65);
+  color: #fff;
+}
+
+#chongyunbutton:hover {
+  background-color: rgb(92, 216, 230);
+  color: #fff;
+}
+
+.main, .regions-main, .char-main, .photo-main {
+  background-color:black;
+}
+
+.main-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://upload-os-bbs.hoyolab.com/upload/2020/09/14/1013950/6576114bb2c9fba606fa10e7d1786597_7566149919658406842.jpg?x-oss-process=image/resize,s_740/quality,q_80/auto-orient,0/interlace,1/format,jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.region-content {
+    margin-top: 350px;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    background-position: center center;
+    position: relative;
+}
+
+.char-content {
+  margin-top: 350px;
+  height: 100vh;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  background-position: center center;
+  position: relative;
+}
+
+.photo-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/20220315190041.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.photo-content2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/20220315235345.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.photo-content3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/20220315190123.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.photo-content4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/20220315230203.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.aboutchange .photo-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 1));
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#mondtmain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/mondt.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.mondtheader {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+#liyuemain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://cdn.gamerjournalist.com/primary/2021/01/Liyue-Harbor-Genshin-Impact.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 600px;
+}
+
+.liyueheader {
+  text-align: center;
+  padding-top: 275px;
+  font-size: 35px;
+}
+
+#inazumamain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://pbs.twimg.com/media/E6y4R44VoAclwDV.jpg:large);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 650px;
+}
+
+.inazumaheader {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+#sumerumain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://cdn2.unrealengine.com/image-1-3840x2160-6fb63d0b460b.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 600px;
+}
+
+.sumeruheader {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+#yelanmain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://preview.redd.it/jeofroqmes191.jpg?auto=webp&s=718a3fb04a87e6dc84a489ce3637a30ad74ec310);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.yelanheader {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+#xianglingmain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://wallpapers.com/images/hd/xiangling-in-bamboo-forest-wnxehe01k0jgybug-wnxehe01k0jgybug.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 600px;
+}
+
+.xianglingheader {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+#chongyunmain {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 1)), url(https://raw.githubusercontent.com/Denzeloid/Genshinanigans/main/1127299.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-top: 600px;
+}
+
+.chongyunheader {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+}
+
+  /* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  margin: 10%;
+}
+
+.left {
+  width:35%;
+  margin: 15px;
+  margin-right: 50px;
+  margin-left: 42.5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.right {
+  width: 55%;
+  margin: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.left, .right {
+  border-radius: 20px;
+  height: 350px;
+  border: solid #fff;
+  border-radius: 20px;
+  border-width: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row h2, p {
+  padding: 5px;
+}
+
+/* regions */
+/* Create two unequal columns that floats next to each other */
+.regions-main .column, .char-main .column {
+  float: left;
+  padding: 10px;
+  margin: 10%;
+}
+
+.regions-main .left, .char-main .left {
+  width:17%;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid #fff
+}
+
+.regions-main .right, .char-main .right {
+  width: 68%;
+  margin: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.regions-main .left, .regions-main .right, .char-main .left, .char-main .right {
+  border-radius: 20px;
+  border-width: 5px;
+  height: 510px;
+}
+
+/* Clear floats after the columns */
+.regions-main .row:after, .char-main .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.regions-main .row h2, h3, p {
+  padding: 5px;
+}
+
+
+.char-main .row h2, h3, p {
+  padding: 5px;
+}
+
+.regions-main h3, .char-main h3 {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/* photo */
+/* Create two unequal columns that floats next to each other */
+.photo-main .column {
+  float: left;
+  padding: 10px;
+  margin: 10%;
+}
+
+.photo-main .left {
+  width:43%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid #fff;
+  text-align: center;
+}
+
+.photo-main .right {
+  width: 43%;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: solid #fff;
+  text-align: center;
+}
+
+.photo-main .left, .photo-main .right {
+  border-radius: 20px;
+  border-width: 5px;
+  height: 500px;
+}
+
+/* Clear floats after the columns */
+.photo-main .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.photo-main .row h2, h3, p {
+  padding: 5px;
+}
+
+/* assorted */
+#mondtmain img, #xianglingmain img, #chongyunmain img {
+  padding-left: 35px;
+}
+
+.medpic {
+  margin-top: 20px
+}
+
+.photo-main img {
+  border: solid #fff;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.white {
+  color: #fff;
+}
